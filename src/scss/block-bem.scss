@@ -1,0 +1,31 @@
+.block-bem {
+  border: 1px solid black;
+  padding: 10px 15px;
+
+  @include media(phone-lg) {
+    border: 0;
+    border-radius: 15px;
+    background-color: $white-d0;
+    padding: 20px 15px;
+  }
+
+  & &__elem {
+    background-color: $yellow;
+    border-left: 5px solid $white;
+    padding: 20px 35px;
+  }
+
+  & &__title {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 20px;
+
+    @include media(phone-lg) {
+      font-size: 18px;
+      color: $black;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  }
+}
