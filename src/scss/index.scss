@@ -7,6 +7,7 @@ body {
 	margin: 0;
 }
 .container {
+	background-color: yellow;
 	// Navigation
 	margin: 0;
 	padding: 0;
@@ -113,4 +114,160 @@ body {
 		}
 	}
 }
-// Удаляем пример выше и пишем свой код соблюдая вышеперечисленные советы.
+// Search Page
+.container {
+	background-color: $white;
+	.content-search-page {
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		margin: 30px 154px 30px 155px;
+		.heading-text {
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 35px;
+			line-height: 41px;
+			letter-spacing: 3px;
+			color: #000000;
+			.heading-pokemon-text {
+				font-family: Karla;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 35px;
+				line-height: 41px;
+				letter-spacing: 3px;
+				color: #000000;
+			}
+		}
+		.heading-form-input {
+			input {
+				padding-left: 2%;
+				width: 100%;
+				height: 53px;
+				background: #f2f2f2;
+				box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
+				border-radius: 40px;
+			}
+		}
+		.content-list-all {
+			display: flex;
+			margin-left: 2%;
+			justify-content: left;
+			margin-top: 5%;
+			.list-title-menu {
+				margin-left: 5%;
+			}
+		}
+		.content-card-menu {
+			display: flex;
+			flex-direction: row;
+			.card-menu-all {
+				.card-line-table {
+					display: flex;
+					flex-direction: row;
+					transform: translateY(15%);
+					.card-pokemon {
+						display: flex;
+						justify-content: space-between;
+						margin-left: 10%;
+						.pokemon-specifications {
+							display: flex;
+							flex-direction: row;
+							.pokemon-specifications-name {
+								.specifications-feautures {
+									display: flex;
+									flex-direction: row;
+									z-index: 2;
+									.specifications-feautures-grass {
+										background: $salat;
+										box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+										border-radius: 11px;
+										width: 58.88px;
+										height: 15.88px;
+										font-family: Roboto;
+										font-style: normal;
+										font-weight: normal;
+										font-size: 12px;
+										line-height: 14px;
+										text-align: center;
+										color: #212121;
+									}
+									.specifications-feautures-poison {
+										background: $blue;
+										box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+										border-radius: 11px;
+										width: 58.88px;
+										height: 15.88px;
+										font-family: Roboto;
+										font-style: normal;
+										font-weight: normal;
+										font-size: 12px;
+										line-height: 14px;
+										text-align: center;
+										color: #212121;
+										margin-left: 10%;
+									}
+								}
+							}
+							.pyroar {
+								background-color: $pyroar;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.pachirisu {
+								background-color: $pasuchiri;
+								width: 220.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.pikachu {
+								background-color: $pikachu;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.tyranitar {
+								background-color: $tyranitar;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.jigglypuff {
+								background-color: $jiggly;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.mudkip {
+								background-color: $mudkip;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.quilava {
+								background-color: $quilava;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.charizard {
+								background-color: $pyroar;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+							.squirtle {
+								background-color: $pasuchiri;
+								width: 227.9px;
+								transform: translateX(-8%);
+								z-index: -1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
