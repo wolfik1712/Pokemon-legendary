@@ -1,273 +1,273 @@
 .block-bem {
-  border: 1px solid black;
-  padding: 10px 15px;
+	border: 1px solid black;
+	padding: 10px 15px;
 }
 @media (max-width: 599px) {
-  .block-bem {
-    border: 0;
-    border-radius: 15px;
-    background-color: #d0d0d0;
-    padding: 20px 15px;
-  }
+	.block-bem {
+		border: 0;
+		border-radius: 15px;
+		background-color: #d0d0d0;
+		padding: 20px 15px;
+	}
 }
 .block-bem .block-bem__elem {
-  background-color: #b39e30;
-  border-left: 5px solid #fff;
-  padding: 20px 35px;
+	background-color: #b39e30;
+	border-left: 5px solid #fff;
+	padding: 20px 35px;
 }
 .block-bem .block-bem__title {
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0;
-  margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: 20px;
 }
 @media (max-width: 599px) {
-  .block-bem .block-bem__title {
-    font-size: 18px;
-    color: #000;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
+	.block-bem .block-bem__title {
+		font-size: 18px;
+		color: #000;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
 }
 
 body {
-  margin: 0;
+	margin: 0;
 }
 
 .container {
-  background-color: yellow;
-  margin: 0;
-  padding: 0;
-  background-color: #2ba52b;
+	background-color: yellow;
+	margin: 0;
+	padding: 0;
+	background-color: #2ba52b;
 }
 .container .navigation-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 157px;
-  background-color: #b39e30;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0 157px;
+	background-color: #b39e30;
 }
 .container .navigation-bar .pokemon-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 70%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 70%;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 .container .navigation-bar .nav-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }
 .container .navigation-bar .navigation-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }
 .container .navigation-bar .navigation-menu a {
-  -webkit-transform: translateY(30%);
-          transform: translateY(30%);
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 29px;
-  color: #000000;
-  text-decoration: none;
-  margin-left: 15%;
+	-webkit-transform: translateY(30%);
+	transform: translateY(30%);
+	font-family: Karla;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	color: #000000;
+	text-decoration: none;
+	margin-left: 15%;
 }
 .container .page-find-pokemon {
-  margin: 8% 0 0 157px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+	margin: 8% 0 0 157px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 .container .page-find-pokemon .pokemon-text .pokemon-find {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 84px;
-  letter-spacing: 4px;
-  color: #000000;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 84px;
+	letter-spacing: 4px;
+	color: #000000;
 }
 .container .page-find-pokemon .pokemon-text .pokemon-find .find-span {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 84px;
-  letter-spacing: 4px;
-  color: #000000;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 84px;
+	letter-spacing: 4px;
+	color: #000000;
 }
 .container .page-find-pokemon .pokemon-text .type-pokemon {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 37px;
-  color: #000000;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
 }
 .container .page-find-pokemon .pokemon-text .pokemon-button {
-  width: 231px;
-  height: 66px;
-  background: #73d677;
-  -webkit-box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
-          box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 23px;
-  line-height: 27px;
-  color: #212121;
+	width: 231px;
+	height: 66px;
+	background: #73d677;
+	-webkit-box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+	box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+	border-radius: 11px;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 27px;
+	color: #212121;
 }
 .container .footer {
-  margin: 0 188px 0 127px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+	margin: 0 188px 0 127px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 .container .footer .make-pokespartans .pokespartans-text {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  color: #212121;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: #212121;
 }
 .container .footer .our-teams {
-  margin-top: 1.5%;
+	margin-top: 1.5%;
 }
 .container .footer .our-teams a {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  color: #212121;
-  text-decoration: none;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: #212121;
+	text-decoration: none;
 }
 
 .bug-container {
-  background-color: #d93e30;
-  overflow: hidden;
-  height: 748px;
+	background-color: #d93e30;
+	overflow: hidden;
+	height: 748px;
 }
 .bug-container .bug-page {
-  margin: 73px 85px 118px 78px;
-  background-color: #d93e30;
-  -webkit-transform: translateY(-13%);
-          transform: translateY(-13%);
+	margin: 73px 85px 118px 78px;
+	background-color: #d93e30;
+	-webkit-transform: translateY(-13%);
+	transform: translateY(-13%);
 }
 .bug-container .bug-page .content-bug-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	overflow: hidden;
 }
 .bug-container .bug-page .content-bug-text .text-404 {
-  -webkit-transform: translateY(-30%);
-          transform: translateY(-30%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 600px;
-  line-height: 818px;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 4px;
-  color: rgba(0, 0, 0, 0.5);
+	-webkit-transform: translateY(-30%);
+	transform: translateY(-30%);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 600px;
+	line-height: 818px;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	letter-spacing: 4px;
+	color: rgba(0, 0, 0, 0.5);
 }
 .bug-container .bug-page .content-bug-rocket {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
 .bug-container .bug-page .content-bug-rocket p {
-  -webkit-transform: translateY(-1450%);
-          transform: translateY(-1450%);
-  text-align: center;
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-  color: #f2f2f2;
+	-webkit-transform: translateY(-1450%);
+	transform: translateY(-1450%);
+	text-align: center;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #f2f2f2;
 }
 .bug-container .bug-page .content-bug-rocket span {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-  color: black;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: black;
 }
 .bug-container .bug-page .content-bug-rocket .return-button {
-  overflow: hidden;
-  -webkit-transform: translate(1100%, -3850%);
-          transform: translate(1100%, -3850%);
-  background: #f2cb07;
-  -webkit-box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
-          box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
+	overflow: hidden;
+	-webkit-transform: translate(1100%, -3850%);
+	transform: translate(1100%, -3850%);
+	background: #f2cb07;
+	-webkit-box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+	box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+	border-radius: 11px;
 }
 .bug-container .bug-page .content-bug-rocket .return-button a {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 23px;
-  line-height: 27px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #212121;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 27px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	color: #212121;
 }
 .bug-container .bug-page img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: translate(50%, -250%);
-          transform: translate(50%, -250%);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transform: translate(50%, -250%);
+	transform: translate(50%, -250%);
 }
