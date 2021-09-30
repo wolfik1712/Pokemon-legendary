@@ -1,0 +1,25 @@
+.footer {
+	padding: 0 188px 0 127px;
+	display: flex;
+	justify-content: space-between;
+	.pokespartans-text {
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 21px;
+		color: #212121;
+	}
+}
+.our-teams {
+	margin-top: 1.5%;
+	a {
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 21px;
+		color: #212121;
+		text-decoration: none;
+	}
+}

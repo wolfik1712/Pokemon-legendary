@@ -9,7 +9,7 @@ $yellow: #b39e30;
 $blue: #07d6f2;
 $salat: #73d677;
 $pyroar: #c4c4c4;
-$pachirisu: #5bc7fa;
+$pasuchiri: #5bc7fa;
 $pikachu: #f2cb07;
 $tyranitar: #c4c4c4;
 $jiggly: #f89eae;
@@ -17,4 +17,8 @@ $mudkip: #5bc7fa;
 $quilava: #64d368;
 $redbug: #d93e30;
 
-//Shadows
+// Тени
+$shadow-header: 0px 4px 16px rgba(1, 28, 64, 0.2);
+
+// Градиент
+$back-color: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);

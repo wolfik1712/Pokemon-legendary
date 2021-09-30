@@ -1,0 +1,81 @@
+.page-find-pokemon {
+  margin: 0;
+  padding: 0;
+  background-color: #f2b807;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+.page-find-pokemon__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 0 0 156px;
+}
+.page-find-pokemon__content .pokemon-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page-find-pokemon__content .pokemon-text .pokemon-find {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 4px;
+  color: #000000;
+}
+.page-find-pokemon__content .pokemon-text .pokemon-find .find-span {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 4px;
+  color: #000000;
+}
+.page-find-pokemon__content .pokemon-text .type-pokemon {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+.page-find-pokemon__content .pokemon-text .pokemon-button {
+  width: 231px;
+  height: 66px;
+  background: #73d677;
+  -webkit-box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+          box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+  border-radius: 11px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 27px;
+  color: #212121;
+}
+.page-find-pokemon__content .pokemon-image img {
+  height: 84vh;
+}

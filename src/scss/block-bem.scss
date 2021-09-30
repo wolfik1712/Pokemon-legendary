@@ -1,4 +1,4 @@
-.block-bem {
+.page-- {
   border: 1px solid black;
   padding: 10px 15px;
 
@@ -9,17 +9,27 @@
     padding: 20px 15px;
   }
 
-  & &__elem {
+  &__elem {
     background-color: $yellow;
     border-left: 5px solid $white;
     padding: 20px 35px;
   }
 
   & &__title {
-    font-size: 20px;
+    font-size: 20px; 
     font-weight: 300;
     margin: 0;
     margin-bottom: 20px;
+	 &.block-bem {
+		 &--color {
+			 &--red {
+				 color: red;
+			 }
+			 &--green {
+				 color: green;
+			 }
+		 }
+	 }
 
     @include media(phone-lg) {
       font-size: 18px;

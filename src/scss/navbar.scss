@@ -1,0 +1,31 @@
+// Navigation
+.navigation-bar {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding: 0 157px;
+	background: #f5db13;
+	box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+	.pokemon-navigation {
+		display: flex;
+		width: 70%;
+		justify-content: space-between;
+	}
+	.nav-image {
+		display: flex;
+	}
+	.navigation-menu {
+		display: flex;
+		a {
+			transform: translateY(30%);
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 25px;
+			line-height: 29px;
+			color: #000000;
+			text-decoration: none;
+			margin-left: 15%;
+		}
+	}
+}

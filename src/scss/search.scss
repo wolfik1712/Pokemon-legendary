@@ -1,5 +1,4 @@
 .container-search {
-	background-color: red;
 	.content-search-page {
 		display: flex;
 		text-align: center;
@@ -49,11 +48,10 @@
 				.card-line-table {
 					display: flex;
 					flex-direction: row;
-					transform: translateY(15%);
 					.card-pokemon {
+						margin: 2% 8% 2% 1%;
 						display: flex;
 						justify-content: space-between;
-						margin-left: 10%;
 						.pokemon-specifications {
 							display: flex;
 							flex-direction: row;

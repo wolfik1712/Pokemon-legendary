@@ -1,0 +1,10 @@
+// Legendary Page
+
+.container-legendary {
+	background-color: $black;
+	margin: 64px 120px;
+	.content-legendary-table {
+		display: flex;
+		flex-direction: row;
+	}
+}
