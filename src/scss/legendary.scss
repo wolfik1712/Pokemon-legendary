@@ -1,10 +1,87 @@
 // Legendary Page
+@import "./vars";
 
-.container-legendary {
+.legendary {
+	margin: 0;
 	background-color: $black;
-	margin: 64px 120px;
-	.content-legendary-table {
+	&__page {
+		margin: 0 120px;
+	}
+	&__name {
+		h1 {
+			margin: 0;
+			padding-top: 3%;
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 72px;
+			line-height: 84px;
+			letter-spacing: 4px;
+			color: #ffffff;
+		}
+	}
+	&__table {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
+	}
+	&__text {
+		width: 412px;
+		h1 {
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 72px;
+			line-height: 84px;
+			letter-spacing: 4px;
+			color: #fdfdfd;
+		}
+		p {
+			word-wrap: break-word;
+			font-family: Source Sans Pro;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 20px;
+			color: #ffffff;
+		}
+	}
+	&__power {
+		display: flex;
+		flex-direction: row;
+	}
+	&__textPower {
+		h2 {
+			font-family: Karla;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 19px;
+			color: #fdfdfd;
+		}
+		h3 {
+			font-family: Karla;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 19px;
+			color: #fdfdfd;
+		}
+	}
+	&__textPower2 {
+		margin: 0 10%;
+	}
+	.footer {
+		margin-top: 10%;
+		.make-pokespartans {
+			.pokespartans-text {
+				color: #f2f2f2;
+			}
+		}
+		.our-teams {
+			a {
+				color: #f2f2f2;
+			}
+		}
 	}
 }

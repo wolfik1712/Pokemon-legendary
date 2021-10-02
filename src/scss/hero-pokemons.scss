@@ -1,0 +1,41 @@
+@import "./vars";
+
+.content-hero-pokemons {
+	display: flex;
+	margin-top: 5%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	&__arrowRight {
+		top: 50%;
+	}
+	&__card {
+		background: $card-color;
+		border-radius: 18px;
+		margin: 1%;
+	}
+	&__info {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: whitesmoke;
+		border-radius: 16px;
+		padding: 0 10%;
+		img {
+			padding-top: 5%;
+		}
+		p {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			display: flex;
+			align-items: center;
+			color: #1d1e1d;
+		}
+	}
+	&__shadows {
+		opacity: 0.6;
+	}
+}

@@ -1,0 +1,88 @@
+.legendary {
+  margin: 0;
+  background-color: #000;
+}
+.legendary__page {
+  margin: 0 120px;
+}
+.legendary__name h1 {
+  margin: 0;
+  padding-top: 3%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 4px;
+  color: #ffffff;
+}
+.legendary__table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.legendary__text {
+  width: 412px;
+}
+.legendary__text h1 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 4px;
+  color: #fdfdfd;
+}
+.legendary__text p {
+  word-wrap: break-word;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.legendary__power {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.legendary__textPower h2 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fdfdfd;
+}
+.legendary__textPower h3 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fdfdfd;
+}
+.legendary__textPower2 {
+  margin: 0 10%;
+}
+.legendary .footer {
+  margin-top: 10%;
+}
+.legendary .footer .make-pokespartans .pokespartans-text {
+  color: #f2f2f2;
+}
+.legendary .footer .our-teams a {
+  color: #f2f2f2;
+}
