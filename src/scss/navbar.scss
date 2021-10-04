@@ -22,10 +22,12 @@
 			font-style: normal;
 			font-weight: normal;
 			font-size: 25px;
-			line-height: 29px;
 			color: #000000;
 			text-decoration: none;
 			margin-left: 15%;
+			&:hover {
+				border-bottom: 3px solid black;
+			}
 		}
 	}
 }

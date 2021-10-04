@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "karla";
+  font-weight: bold;
+  src: url(../../assets/fonts/karla-bold.ttf);
+}
+@font-face {
+  font-family: "karla";
+  font-weight: normal;
+  src: url(../../assets/fonts/karla.ttf);
+}
+@font-face {
+  font-family: "open sans";
+  font-weight: 800;
+  src: url(../../assets/fonts/open-sans-extrabold.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  font-weight: normal;
+  src: url(../../assets/fonts/roboto-regular.ttf);
+}
+@font-face {
+  font-family: "source sans pro";
+  font-weight: normal;
+  src: url(../../assets/fonts/source-sans-pro.ttf);
+}
 .page-find-pokemon {
   margin: 0;
   padding: 0;
@@ -559,10 +584,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 29px;
   color: #000000;
   text-decoration: none;
   margin-left: 15%;
+}
+.navigation-bar .navigation-menu a:hover {
+  border-bottom: 3px solid black;
 }
 
 .footer {
