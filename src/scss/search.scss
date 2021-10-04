@@ -42,6 +42,7 @@
 			}
 		}
 		.content-card-menu {
+			position: relative;
 			display: flex;
 			flex-direction: row;
 			.card-menu-all {
@@ -56,6 +57,9 @@
 							display: flex;
 							flex-direction: row;
 							.pokemon-specifications-name {
+								a {
+									text-decoration: none;
+								}
 								.specifications-feautures {
 									display: flex;
 									flex-direction: row;
