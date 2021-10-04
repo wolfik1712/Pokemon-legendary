@@ -28,6 +28,10 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.legendary__pic {
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
 .legendary__text {
   width: 412px;
 }

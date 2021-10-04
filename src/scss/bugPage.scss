@@ -7,7 +7,6 @@
 	align-items: center;
 	justify-content: center;
 	background-color: $redbug;
-	overflow: hidden;
 	&__banner {
 		position: relative;
 		width: 90%;
@@ -28,12 +27,14 @@
 		font-size: 70vh;
 	}
 	&__text {
-		padding: 10vh 0 5vh 0;
+		padding: 5vh 0 0vh 0;
 		font-family: Karla;
 		font-style: normal;
 		font-weight: bold;
+		font-size: 48px;
+		line-height: 56px;
 		&__rocket {
-			color: $white;
+			color: white;
 		}
 		&__time {
 			color: $black;

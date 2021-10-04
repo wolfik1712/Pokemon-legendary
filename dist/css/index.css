@@ -121,6 +121,10 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.legendary__pic {
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
 .legendary__text {
   width: 412px;
 }
@@ -394,7 +398,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #d93e30;
-  overflow: hidden;
 }
 .bug-page__banner {
   position: relative;
@@ -426,13 +429,15 @@
   font-size: 70vh;
 }
 .bug-page__text {
-  padding: 10vh 0 5vh 0;
+  padding: 5vh 0 0vh 0;
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
 }
 .bug-page__text__rocket {
-  color: #fff;
+  color: white;
 }
 .bug-page__text__time {
   color: #000;
@@ -914,7 +919,7 @@
 
 body {
   position: relative;
-  font-family: "karla";
+  font-family: Karla;
   height: 100%;
   font-style: normal;
   font-weight: normal;
